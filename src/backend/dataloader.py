@@ -35,7 +35,7 @@ usgeology_mapping = {
 
 
 usgeology_shp = os.path.abspath(
-    os.path.join(os.path.dirname(__file__), '..','..','..','GISData','USGS_SGMC_Shapefiles', 'SGMC_Geology.shp'),
+    os.path.join(os.path.dirname(__file__), '..','..','..','GISData','Converted_Geology', 'Geology_LatLon.shp'),
 )
 
 def run(verbose=True):
